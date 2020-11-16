@@ -1,0 +1,46 @@
+.start-icon{
+  font-size: 100px;
+  color: yellow;
+  animation-name: pulse;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes pulse {
+  0%{
+    transform: scale(0.25);
+  }
+  50%{
+    transform: scale(0.99);
+    color: aqua;
+  }
+
+  100%{
+    transform: scale(0.25);
+  }
+}
+
+.start-icon-two{
+  font-size: 100px;
+  color: darkslateblue;
+  animation-name: pulse;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes pulse {
+  0%{
+    transform: scale(0.99);
+  }
+  50%{
+    transform: scale(0.25);
+    color: darkslategray;
+  }
+
+  100%{
+    transform: scale(0.99);
+  }
+}
+.d-flex{
+  background-color: lightgray;
+}

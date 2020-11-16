@@ -1,0 +1,29 @@
+<div class="d-flex flex-column h-100">
+
+  <div>
+    <app-toolbar></app-toolbar>
+  </div>
+
+  <div class="d-flex flex-grow-1 justify-content-center align-items-center flex-column">
+
+    <div class="start-icon">
+      <mat-icon [inline]="true">
+        wb_sunny
+        cloud_queue
+      </mat-icon>
+    </div>
+
+    <div class="start-icon-two">
+      <mat-icon [inline]="true">
+        bedtime
+        cloud
+      </mat-icon>
+    </div>
+
+
+   <div>
+     <button mat-raised-button color="primary" [routerLink]="['/','select-city']">Select City!</button>
+   </div>
+
+  </div>
+</div>
